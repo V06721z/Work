@@ -20,8 +20,9 @@ function link(label, href, secondary = false, download = false) {
 function render(data) {
   el("#hero-eyebrow").textContent = data.hero.eyebrow;
   el("#hero-title").textContent = data.hero.title;
+  el("#hero-positioning").textContent = data.hero.positioning;
   el("#hero-lede").textContent = data.hero.lede;
-  el("#hero-meta").textContent = `${data.person.location} · ${data.person.citizenship}`;
+  el("#hero-meta").textContent = data.person.location;
   el("#headshot").src = data.person.headshot;
   el("#headshot").alt = data.person.headshotAlt;
 

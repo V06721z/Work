@@ -7,12 +7,12 @@ window.PORTFOLIO_CONTENT = {
     "github": "https://github.com/V06721z",
     "resume": "assets/vihal-rotti-resume.pdf",
     "headshot": "assets/vihal-rotti-headshot.webp",
-    "headshotAlt": "Vihal J Rotti smiling in a dark suit and blue tie against a soft lavender background",
-    "citizenship": "U.S. Citizen"
+    "headshotAlt": "Vihal J Rotti smiling in a dark suit and blue tie against a soft lavender background"
   },
   "hero": {
     "eyebrow": "Product Management · Business Analysis · Technology Consulting",
-    "title": "I turn complex business problems into products and processes that work.",
+    "title": "Vihal J Rotti",
+    "positioning": "I turn complex business problems into products and processes that work.",
     "lede": "Master of Business and Technology student at Purdue with experience aligning people, data, and technology to create measurable operational impact.",
     "proof": [
       { "value": "4,500+", "label": "monthly orders supported" },
