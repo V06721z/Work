@@ -60,7 +60,17 @@ function render(data) {
     });
     const tags = make("div", "project-tags");
     project.tags.forEach((tag) => tags.append(make("span", "", tag)));
-    article.append(dl, tags);
+    const artifact = make("div", "project-artifact");
+    if (project.artifact) {
+      const download = make("a", "project-download", "Download case study ↓");
+      download.href = project.artifact;
+      download.download = "";
+      download.setAttribute("aria-label", `Download ${project.title} case study PDF`);
+      artifact.append(download);
+    } else {
+      artifact.append(make("span", "project-pending", "Case study PDF coming soon"));
+    }
+    article.append(dl, tags, artifact);
     el("#projects-list").append(article);
   });
 

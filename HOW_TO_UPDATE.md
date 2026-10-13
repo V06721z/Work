@@ -8,6 +8,15 @@ Open `content.js`, find `"projects"`, and duplicate one complete project object.
 
 Use `[NEEDS INFO: ...]` for any result that has not been confirmed. Do not estimate metrics.
 
+### Attach a project PDF
+
+1. Put the PDF in `assets/projects/`, using a short filename such as `blinkit-case-study.pdf`.
+2. Find that project in `content.js`.
+3. Change `"artifact": null` to `"artifact": "assets/projects/blinkit-case-study.pdf"`.
+4. The project card will automatically show an active **Download case study** button.
+
+Leave `artifact` as `null` until the PDF is uploaded so visitors never encounter a broken link.
+
 ## Add a job
 
 Open `content.js`, find `"experience"`, and duplicate one complete role object. Update the company, role, dates, location, and bullets. Write bullets as action plus outcome whenever the evidence is available.

@@ -10,10 +10,10 @@ window.PORTFOLIO_CONTENT = {
     "headshotAlt": "Vihal J Rotti smiling in a dark suit and blue tie against a soft lavender background"
   },
   "hero": {
-    "eyebrow": "Product Management · Business Analysis · Technology Consulting",
-    "title": "Vihal J Rotti",
-    "positioning": "I turn complex business problems into products and processes that work.",
-    "lede": "Master of Business and Technology student at Purdue with experience aligning people, data, and technology to create measurable operational impact.",
+    "eyebrow": "Vihal J Rotti / Product · Business · Technology",
+    "title": "Turning ambiguity",
+    "positioning": "into momentum.",
+    "lede": "I bring customer insight, structured thinking, and technology together to move products and business operations forward.",
     "proof": [
       { "value": "4,500+", "label": "monthly orders supported" },
       { "value": "33%", "label": "shipping cost reduction" },
@@ -70,6 +70,7 @@ window.PORTFOLIO_CONTENT = {
       "problem": "Understand what prevented customers from expanding their share of spending with Blinkit.",
       "action": "Led a five-person team through 40+ user interviews spanning 25+ hours, synthesized behavioral insights, and prioritized concepts with an impact-versus-effort framework.",
       "result": "Defined product strategies and KPIs for evaluating customer engagement and wallet-share growth. [NEEDS INFO: validation or final presentation outcome]",
+      "artifact": null,
       "tags": ["Product strategy", "User research", "Prioritization", "KPIs"]
     },
     {
@@ -79,6 +80,7 @@ window.PORTFOLIO_CONTENT = {
       "problem": "Identify friction in a consumer application’s onboarding journey and the causes of engagement drop-off.",
       "action": "Worked in a two-person team to combine primary and secondary research, map the user journey, and identify activation and retention opportunities.",
       "result": "Proposed data-informed product improvements for onboarding, activation, and long-term retention. [NEEDS INFO: implementation or client feedback]",
+      "artifact": null,
       "tags": ["Onboarding", "Retention", "Journey analysis", "Product discovery"]
     }
   ],
